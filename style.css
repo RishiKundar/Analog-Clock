@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#clock-container{
+    position: relative;
+    background-color: red;
+    height: 40vw;
+    width: 40vw;
+    height: 440px;
+    width: 440px;
+    background: url(./images/clock.png) no-repeat;
+    margin: auto;
+    background-size: 100%;  
+}
+
+.header{
+    margin-bottom: 61px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 21px;
+    background-color: #5C5470;
+}
+
+h1{
+    padding-top: 10px;
+}
+
+#hour, #minute, #second{
+    background: black;
+    position: absolute;
+    transform-origin: bottom;
+    border-radius: 5px;
+}
+
+#hour{  
+    width: 2%;
+    height: 27%;
+    top: 25%;
+    left: 48.3%;
+    opacity: 0.8;
+}
+
+#minute{
+    width: 2%;
+    height: 44%;
+    top: 7.2%;
+    left: 48.3%;
+    opacity: 0.8;
+       
+}
+
+#second{
+    background: red;
+    z-index: -1;
+    width: 1%;
+    height: 45%;
+    top: 6%;
+    left: 48.9%;
+    opacity: 0.8;  
+}
+.footer{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    background-color: #FAF0E6;
+    margin-top: 89px;
+}
